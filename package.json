@@ -4,7 +4,8 @@
   "description": "This is boilerplate for React.",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --mode development --hot"
+    "start": "webpack-dev-server --mode development --hot",
+    "test": ""
   },
   "keywords": [
     "react",

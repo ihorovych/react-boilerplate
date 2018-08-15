@@ -1,18 +1,7 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
-export default function App(props) {
-  console.log('APP_PROPS', props);
+export default function App() {
   return (
-    <Fragment>
-      <div>HOLLA</div>
-      {/* <input
-        type="button"
-        onClick={
-          () => {
-            props.someAction();
-          }
-        }
-      /> */}
-    </Fragment>
+    <div>HOLLA</div>
   );
 }

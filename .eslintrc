@@ -11,8 +11,8 @@
   "rules": {
     "indent": 2,
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "no-console": "off",
-    "function-paren-newline": "off",
-    "import/prefer-default-export": "off"
+    "no-console": "warn",
+    "function-paren-newline": "warn",
+    "import/prefer-default-export": "warn"
   }
 }
