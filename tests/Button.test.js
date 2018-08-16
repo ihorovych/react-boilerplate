@@ -9,12 +9,6 @@ const createTestProps = (customProps = {}) => ({
 });
 
 describe('rendering', () => {
-  describe('no type', () => {
-
-  });
-});
-
-describe('rendering', () => {
   let wrapper;
   let props;
   beforeEach(() => {
