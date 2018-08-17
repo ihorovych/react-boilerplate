@@ -12,8 +12,8 @@
     "indent": 2,
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "no-console": "warn",
-    "no-undef": "warn",
+    "no-undef": "off",
     "function-paren-newline": "warn",
-    "import/prefer-default-export": "warn"
+    "import/prefer-default-export": "off"
   }
 }

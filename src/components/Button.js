@@ -29,7 +29,7 @@ const SuperButton = props => (
 
 
 SuperButton.propTypes = {
-  onClick: PropTypes.func.isRequired,
+  onClick: PropTypes.func,
   label: PropTypes.string,
   type: PropTypes.string,
   customStyle: PropTypes.oneOfType([
@@ -44,7 +44,8 @@ SuperButton.propTypes = {
 
 SuperButton.defaultProps = {
   type: 'default',
-  label: 'Button',
+  label: 'Submit',
+  onClick: null,
   customStyle: null,
   children: null,
 };
